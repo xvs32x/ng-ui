@@ -1,0 +1,36 @@
+@import "./../mix.scss";
+
+ui-button {
+  @include button;
+  @if (mixin_exists(hook-button)) {
+    @include hook-button
+  }
+
+  &:hover {
+    @include button-hover;
+    @if (mixin_exists(hook-button)) {
+      @include hook-button-hover
+    }
+  }
+}
+
+ui-button.ui-primary {
+  @include button-primary;
+  @if (mixin_exists(hook-button-primary)) {
+    @include hook-button-primary
+  }
+
+  &:hover {
+    @include button-primary-hover;
+    @if(mixin_exists(hook-button-primary-hover)) {
+      @include hook-button-primary-hover;
+    }
+  }
+}
+
+ui-button.ui-disabled {
+  @include button-disabled;
+  @if(mixin_exists(hook-button-disabled)) {
+    @include hook-button-disabled
+  }
+}

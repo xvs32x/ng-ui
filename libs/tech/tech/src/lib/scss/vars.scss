@@ -1,0 +1,21 @@
+// Globals
+// Palette
+// Global default background for elements
+$ui-global-default-color: #f8f9fa !default;
+// Inverted color. It uses for elements with inverted background.
+$ui-global-inverted-color: #ffffff;
+// Inverted background. Black by default. Usually uses for mixes with primary elements
+$ui-global-inverted-background: #000000;
+// Global primary color for primary text, or primary elements backgrounds.
+$ui-global-primary-color: #343a40 !default;
+// Usually uses form validated elements, like forms elements
+$ui-global-validated-color: #82b54b !default;
+//Usually uses form invalidated elements, like forms elements
+$ui-global-invalidated-color: #e04f1a !default;
+// Other
+$ui-global-body-color: #f3f5f9 !default;
+// Borders
+$ui-global-border-radius: 1.1rem;
+// Typography
+$ui-global-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$ui-global-font-size: 15px;

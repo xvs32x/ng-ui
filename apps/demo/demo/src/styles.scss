@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../../../../libs/tech/tech/src/lib/scss/base";
+@import "../../../../libs/tech/tech/src/lib/scss/modules/grid";
+@import "../../../../libs/tech/tech/src/lib/scss/modules/button";
+@import "../../../../libs/tech/tech/src/lib/scss/modules/card";
+
+body {
+  margin: 1rem;
+}

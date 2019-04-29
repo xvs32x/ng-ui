@@ -1,0 +1,37 @@
+@import "vars";
+@mixin button() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  line-height: 2.3rem;
+  text-align: center;
+  padding: 0 0.5rem;
+  color: #000000;
+  background: $ui-global-default-color;
+  border-radius: $ui-global-border-radius;
+  box-shadow: 0 0.125rem 0.55rem transparentize($ui-global-inverted-background, 0.8);
+}
+
+@mixin button-hover {
+  background: $ui-global-inverted-color;
+}
+
+@mixin button-primary {
+  color: $ui-global-inverted-color;
+  background: $ui-global-primary-color;
+}
+
+@mixin button-primary-hover {
+  background: $ui-global-inverted-background;
+}
+
+@mixin button-disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+@mixin grid() {
+  display: grid;
+}
